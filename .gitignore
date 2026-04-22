@@ -16,5 +16,7 @@ Public-Inputs/*
 !Public-Inputs/.gitkeep
 Scedule/*
 !Scedule/.gitkeep
-*.mpc
-*.md
+
+#VSCode folder
+.vscode/*
+.vscode/
