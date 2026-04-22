@@ -1,0 +1,13 @@
+#Each party inputs a secret integer
+#Program computes and reveals sum
+
+#Read private integers from 3 parties
+
+a = sint.get_input_from(0)
+b = sint.get_input_from(1)
+c = sint.get_input_from(2)
+
+sum = a+b+c
+
+print_ln('Sum of all parties %s',sum.reveal())
+
